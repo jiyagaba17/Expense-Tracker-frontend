@@ -14,6 +14,7 @@ function App() {
   
     //by clicking on left navigation items, corresponding sections should get open, set state as active therefore
     //default value 1 (1), corresponding ids 1,2,3....
+    
     const [active, setActive] = React.useState(1)
 
     const global = useGlobalContext()
@@ -49,6 +50,7 @@ function App() {
     <AppStyled bg ={bg} className="App">
 
     { /*main data - comments in children section of tag should be in braces*/}
+
 
       {orbMemo}
       <MainLayout>
